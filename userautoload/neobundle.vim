@@ -81,6 +81,7 @@ NeoBundle 'git://github.com/kana/vim-altr.git',
         \ {'name' : 'vim-altr'}
 NeoBundle 'petdance/vim-perl'
 NeoBundle 'hotchpotch/perldoc-vim'
+NeoBundle 'vim-scripts/Align'
 
 filetype plugin indent on     " required!
 filetype indent on
