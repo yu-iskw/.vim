@@ -82,6 +82,7 @@ NeoBundle 'git://github.com/kana/vim-altr.git',
 NeoBundle 'petdance/vim-perl'
 NeoBundle 'hotchpotch/perldoc-vim'
 NeoBundle 'vim-scripts/Align'
+NeoBundle 'rhysd/unite-ruby-require.vim'
 
 filetype plugin indent on     " required!
 filetype indent on
