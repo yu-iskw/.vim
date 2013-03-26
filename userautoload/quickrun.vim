@@ -5,6 +5,9 @@ augroup QuickRunUnitTest
   autocmd BufWinEnter,BufNewFile test_*.py set filetype=python.unit
   autocmd BufWinEnter,BufNewFile *.t       set filetype=perl.unit
   autocmd BufWinEnter,BufNewFile *_spec.rb set filetype=ruby.rspec
+
+  autocmd BufWritePost *_spec.rb :QuickRun
+  autocmd BufWritePost *.t       :QuickRun
 augroup END
 
 let g:quickrun_config = {}
