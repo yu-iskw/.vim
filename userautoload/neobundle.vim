@@ -53,8 +53,6 @@ NeoBundleLazy 'ruby-matchit', {
 
 " myconf
 NeoBundle 'Shougo/unite-ssh'
-NeoBundle 'git://github.com/sukima/xmledit.git', 
-        \ {'name' : 'xmledit'}
 NeoBundle 'git://github.com/h1mesuke/unite-outline.git',
         \ {'name' : 'unite-outline'}
 NeoBundle 'maven-ide'
