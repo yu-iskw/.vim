@@ -28,6 +28,7 @@ NeoBundle 'git://github.com/kaichen/vim-snipmate-ruby-snippets.git',
         \ {'name' : 'vim-snippets-ruby-snippets'}
 NeoBundle 'git://github.com/honza/snipmate-snippets.git',
         \ {'name' : 'snipmate-snippets'}
+NeoBundle 'kucaahbe/vim-snippets'
 
 
 NeoBundle 'Shougo/neocomplcache-rsense', {
