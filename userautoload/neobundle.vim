@@ -86,6 +86,7 @@ NeoBundle 'vim-scripts/mru.vim'
 NeoBundle 'vim-scripts/L9'
 NeoBundle 'vim-scripts/FuzzyFinder'
 NeoBundle 'vim-scripts/MultipleSearch'
+NeoBundle 'kana/vim-smartinput'
 
 filetype plugin indent on     " required!
 filetype indent on
