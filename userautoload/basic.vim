@@ -10,6 +10,8 @@ let g:xml_syntax_folding = 1
 set foldlevel=100 "Don't autofold anything
 
 
+" ファイルが更新されたら自動的にリロード
+set autoread 
 "「他のアプリでコピーした文字をVimで貼付けたい。またはその逆も」
 set clipboard=unnamed,autoselect
 "  長い行の折り返しをしない 
