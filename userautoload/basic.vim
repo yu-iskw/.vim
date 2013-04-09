@@ -19,7 +19,7 @@ augroup vimrc-checktime
 augroup END
 
 "「他のアプリでコピーした文字をVimで貼付けたい。またはその逆も」
-set clipboard=unnamed,autoselect
+"set clipboard=unnamed,autoselect
 "  長い行の折り返しをしない 
 :set wrap
 " 勝手に自動改行されるのを防ぐ
