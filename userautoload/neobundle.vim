@@ -89,6 +89,7 @@ NeoBundle 'vim-scripts/MultipleSearch'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/AutoComplPop'
+NeoBundle 'Markdown'
 
 filetype plugin indent on     " required!
 filetype indent on
