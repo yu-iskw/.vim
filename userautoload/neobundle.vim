@@ -7,7 +7,11 @@ if has('vim_starting')
 endif
 " originalrepos on github
 NeoBundle 'Shougo/neobundle.vim'
-NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/vimproc', {
+      \ 'build' : {
+      \     'mac' : 'make -f make_mac.mak',
+      \    },
+      \ }
 NeoBundle 'VimClojure'
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/unite.vim'
@@ -90,6 +94,8 @@ NeoBundle 'kana/vim-smartinput'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/AutoComplPop'
 NeoBundle 'Markdown'
+NeoBundle 'https://github.com/derekwyatt/vim-scala.git'
+NeoBundle 'https://github.com/tommorris/scala-vim-snippets.git'
 
 filetype plugin indent on     " required!
 filetype indent on

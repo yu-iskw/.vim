@@ -18,5 +18,5 @@ let g:quickrun_config['python.unit'] = {'command': 'nosetests', 'cmdopt': '-s -v
 " perl test
 let g:quickrun_config['perl.unit'] = {'command': 'prove', 'cmdopt': '-I . -I ./lib'}
 " rspec (ruby)
-let g:quickrun_config['ruby.rspec'] = {'command': 'rspec', 'cmdopt': '--format progress -I .', 'outputter': 'buffer:filetype=rspec-result'}
+let g:quickrun_config['ruby.rspec'] = {'command': 'rspec', 'cmdopt': '-I .', 'outputter': 'buffer:filetype=rspec-result'}
 let g:quickrun_config['markdown'] = {'command': 'markdown'}

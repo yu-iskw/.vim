@@ -16,6 +16,7 @@ set autoread
 augroup vimrc-checktime
   autocmd!
   autocmd WinEnter * checktime
+  autocmd CursorHold * checktime
 augroup END
 
 "「他のアプリでコピーした文字をVimで貼付けたい。またはその逆も」
@@ -51,7 +52,7 @@ set number
 "カーソルが何行目の何列目に置かれているかを表示する。（有効:ruler/無効:noruler）
 set ruler
 "シフト移動幅
-set shiftwidth=4
+set shiftwidth=2
 "閉じ括弧が入力されたとき、対応する括弧を表示する
 set showmatch
 "新しい行を作ったときに高度な自動インデントを行う
@@ -59,7 +60,7 @@ set smartindent
 "行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする。
 set smarttab
 "ファイル内の <Tab> が対応する空白の数
-set tabstop=4
+set tabstop=2
 
 " Vimの外部で変更されたことが判明したとき、自動的に読み直す
 set autoread
