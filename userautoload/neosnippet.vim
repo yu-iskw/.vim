@@ -18,4 +18,4 @@ if has('conceal')
 endif
 
 " load other snippets
-let g:neosnippet#snippets_directory = '~/.vim/snippets/,~/.vim/bundle/vim-snippets-ruby-snippets/,~/.vim/bundle/snipmate-snippets/snippets/,~/.vim/bundle/vim-snippets'
+let g:neosnippet#snippets_directory = '~/.vim/snippets,~/.vim/bundle/neosnippet,~/.vim/bundle/scala-vim-snippets,~/.vim/bundle/snipmate-snippets,~/.vim/bundle/vim-snippets,~/.vim/bundle/vim-snippets-ruby-snippets'

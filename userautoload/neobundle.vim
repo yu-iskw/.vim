@@ -96,6 +96,8 @@ NeoBundle 'vim-scripts/AutoComplPop'
 NeoBundle 'Markdown'
 NeoBundle 'https://github.com/derekwyatt/vim-scala.git'
 NeoBundle 'https://github.com/tommorris/scala-vim-snippets.git'
+NeoBundle 'https://code.google.com/p/vim-markdown/'
+NeoBundle 'https://github.com/megaannum/vimside.git'
 
 filetype plugin indent on     " required!
 filetype indent on
