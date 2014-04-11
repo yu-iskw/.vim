@@ -93,11 +93,11 @@ NeoBundle 'vim-scripts/MultipleSearch'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/AutoComplPop'
-NeoBundle 'Markdown'
+NeoBundle 'https://github.com/plasticboy/vim-markdown.git'
 NeoBundle 'https://github.com/derekwyatt/vim-scala.git'
 NeoBundle 'https://github.com/tommorris/scala-vim-snippets.git'
-NeoBundle 'https://code.google.com/p/vim-markdown/'
 NeoBundle 'https://github.com/megaannum/vimside.git'
+NeoBundle 'https://github.com/tpope/vim-rails.git'
 
 filetype plugin indent on     " required!
 filetype indent on
