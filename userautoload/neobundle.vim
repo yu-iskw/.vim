@@ -28,9 +28,9 @@ NeoBundleLazy 'Shougo/neosnippet', {
       \ 'autoload' : {
       \   'insert' : 1,
       \ }}
-NeoBundle 'git://github.com/kaichen/vim-snipmate-ruby-snippets.git',
+NeoBundle 'https://github.com/kaichen/vim-snipmate-ruby-snippets.git',
         \ {'name' : 'vim-snippets-ruby-snippets'}
-NeoBundle 'git://github.com/honza/snipmate-snippets.git',
+NeoBundle 'https://github.com/garbas/vim-snipmate.git',
         \ {'name' : 'snipmate-snippets'}
 NeoBundle 'kucaahbe/vim-snippets'
 
@@ -57,30 +57,30 @@ NeoBundleLazy 'ruby-matchit', {
 
 " myconf
 NeoBundle 'Shougo/unite-ssh'
-NeoBundle 'git://github.com/h1mesuke/unite-outline.git',
+NeoBundle 'https://github.com/h1mesuke/unite-outline.git',
         \ {'name' : 'unite-outline'}
 NeoBundle 'maven-ide'
 NeoBundle 'YankRing.vim'
 NeoBundle 'html5.vim'
-NeoBundle 'git://github.com/scrooloose/nerdtree.git',
+NeoBundle 'https://github.com/scrooloose/nerdtree.git',
         \ {'name' : 'nerdtree'}
-NeoBundle 'git://github.com/Shougo/vimfiler.git',
+NeoBundle 'https://github.com/scrooloose/nerdtree.git',
         \ {'name' : 'vimfiler'}
 NeoBundle 'Quich-Filter'
 NeoBundle 'https://github.com/tpope/vim-fugitive',
         \ {'name' : 'vim-fugitive'}
 NeoBundle 'SQLUtilities'
-NeoBundle 'git://github.com/tpope/vim-surround.git',
+NeoBundle 'http://github.com/tpope/vim-surround.git',
         \ {'name' : 'vim-surround'}
 NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'git://github.com/thinca/vim-quickrun.git',
+NeoBundle 'http://github.com/thinca/vim-quickrun.git',
         \ {'name' : 'vim-quickrun'}
-NeoBundle 'git://github.com/vim-scripts/grep.vim.git',
+NeoBundle 'http://github.com/vim-scripts/grep.vim.git',
         \ {'name' : 'grep'}
 NeoBundle 'Vim-R-plugin'
 NeoBundle 'https://github.com/ervandew/screen',
         \ {'name' : 'screen'}
-NeoBundle 'git://github.com/kana/vim-altr.git',
+NeoBundle 'http://github.com/kana/vim-altr.git',
         \ {'name' : 'vim-altr'}
 NeoBundle 'petdance/vim-perl'
 NeoBundle 'hotchpotch/perldoc-vim'
@@ -98,6 +98,8 @@ NeoBundle 'https://github.com/derekwyatt/vim-scala.git'
 NeoBundle 'https://github.com/tommorris/scala-vim-snippets.git'
 NeoBundle 'https://github.com/megaannum/vimside.git'
 NeoBundle 'https://github.com/tpope/vim-rails.git'
+NeoBundle 'https://github.com/tyru/open-browser.vim.git'
+NeoBundle 'https://github.com/vim-scripts/vim-addon-mw-utils.git'
 
 filetype plugin indent on     " required!
 filetype indent on
