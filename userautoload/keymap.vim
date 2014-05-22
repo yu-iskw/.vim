@@ -12,3 +12,8 @@ nnoremap tc :tabclose<CR>
 for i in range(1, 9)
     execute 'nnoremap t' . i . ' ' . i . 'gt'
 endfor
+
+" copy a file name
+" SEE ALSO: http://vim.wikia.com/wiki/VimTip600
+nmap ,cs :let @*=expand("%")<CR>
+nmap ,cl :let @*=expand("%:p")<CR>
