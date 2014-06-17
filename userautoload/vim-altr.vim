@@ -10,4 +10,4 @@ call altr#define('app/helpers/%.rb', 'spec/helpers/%_spec.rb')
 " For perl
 call altr#define('lib/%.pm', 't/%.t', 't/lib/%.t')
 " For Scala
-call altr#define('%/main/scala/%.scala','%/test/scala/%.scala', '%/test/scala/%Suite.scala')
+call altr#define('%/main/scala/%.scala','%/test/scala/%.scala', '%/test/scala/%Suite.scala', '%/test/scala/%Test.scala')
