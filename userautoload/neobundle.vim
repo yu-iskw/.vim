@@ -57,11 +57,11 @@ NeoBundleLazy 'ruby-matchit', {
 
 " myconf
 NeoBundle 'Shougo/unite-ssh'
-NeoBundle 'https://github.com/h1mesuke/unite-outline.git',
+NeoBundle 'https://github.com/Shougo/unite-outline.git',
         \ {'name' : 'unite-outline'}
 NeoBundle 'maven-ide'
 NeoBundle 'YankRing.vim'
-NeoBundle 'html5.vim'
+"NeoBundle 'html5.vim'
 NeoBundle 'https://github.com/scrooloose/nerdtree.git',
         \ {'name' : 'nerdtree'}
 NeoBundle 'https://github.com/scrooloose/nerdtree.git',

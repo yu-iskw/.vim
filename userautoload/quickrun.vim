@@ -14,7 +14,7 @@ let g:quickrun_config = {}
 " php
 let g:quickrun_config['php.unit'] = {'command': 'phpunitrunner'}
 " python
-let g:quickrun_config['python.unit'] = {'command': 'nosetests', 'cmdopt': '-s -vv'}
+let g:quickrun_config['python.unit'] = {'command': 'nosetests', 'cmdopt': '-s -vv -I ./*'}
 " perl test
 let g:quickrun_config['perl.unit'] = {'command': 'prove', 'cmdopt': '-I . -I ./lib'}
 " rspec (ruby)
