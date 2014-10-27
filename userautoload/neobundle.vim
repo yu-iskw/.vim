@@ -101,6 +101,7 @@ NeoBundle 'https://github.com/tpope/vim-rails.git'
 NeoBundle 'https://github.com/tyru/open-browser.vim.git'
 NeoBundle 'https://github.com/vim-scripts/vim-addon-mw-utils.git'
 NeoBundle 'https://github.com/mattn/emmet-vim.git'
+NeoBundle 'https://github.com/hynek/vim-python-pep8-indent.git'
 
 filetype plugin indent on     " required!
 filetype indent on
