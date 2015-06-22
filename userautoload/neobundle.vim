@@ -77,7 +77,7 @@ NeoBundle 'http://github.com/thinca/vim-quickrun.git',
         \ {'name' : 'vim-quickrun'}
 NeoBundle 'http://github.com/vim-scripts/grep.vim.git',
         \ {'name' : 'grep'}
-NeoBundle 'Vim-R-plugin'
+NeoBundle 'https://github.com/vim-scripts/Vim-R-plugin'
 NeoBundle 'https://github.com/ervandew/screen',
         \ {'name' : 'screen'}
 NeoBundle 'http://github.com/kana/vim-altr.git',
