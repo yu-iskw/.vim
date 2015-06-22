@@ -89,3 +89,10 @@ set title
 
 "カーソルを行頭、行末で止まらないようにする
 set whichwrap=b,s,h,l,<,>,[,]
+
+" 行末のスペースをハイライト
+augroup HighlightTrailingSpaces
+  autocmd!
+  autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
+  autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
+augroup END
