@@ -25,6 +25,10 @@ set clipboard=unnamed,autoselect
 :set wrap
 " 勝手に自動改行されるのを防ぐ
 set textwidth=0
+if exists('&colorcolumn')
+    set colorcolumn=+1
+    autocmd FileType sh,cpp,java,perl,vim,ruby,python,haskell,scheme,R setlocal textwidth=80
+endif
 " インサートモード時にバックスペースを使う
 set backspace=indent,eol,start
 
