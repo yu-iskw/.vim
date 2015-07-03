@@ -9,3 +9,6 @@ autocmd BufRead,BufNewFile *.md   setfiletype mkd
 autocmd BufRead,BufNewFile *.Rmd  setfiletype mkd
 " teached by vimtaku
 "au BufRead,BufNewFile *.Rmd  setlocal filetype=md
+
+" R
+au BufRead,BufNewFile *.R set ft=r
