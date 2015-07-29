@@ -103,6 +103,7 @@ NeoBundle 'https://github.com/mattn/emmet-vim.git'
 NeoBundle 'https://github.com/hynek/vim-python-pep8-indent.git'
 NeoBundle "davidhalter/jedi-vim"
 NeoBundle 'https://github.com/kannokanno/previm.git'
+NeoBundle 'https://github.com/antoyo/vim-licenses.git'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
