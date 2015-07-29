@@ -43,16 +43,6 @@ NeoBundle 'https://github.com/garbas/vim-snipmate.git',
         \ {'name' : 'snipmate-snippets'}
 NeoBundle 'kucaahbe/vim-snippets'
 
-
-NeoBundle 'Shougo/neocomplcache-rsense', {
-      \ 'depends': 'Shougo/neocomplcache',
-      \ 'autoload': { 'filetypes': 'ruby' }}
-NeoBundleLazy 'taichouchou2/rsense-0.3', {
-      \ 'build' : {
-      \    'mac': 'ruby etc/config.rb > ~/.rsense',
-      \    'unix': 'ruby etc/config.rb > ~/.rsense',
-      \ } }
-
 " reference環境
 NeoBundleLazy 'vim-ruby/vim-ruby', {
     \ 'autoload' : { 'filetypes': ['ruby', 'eruby', 'haml'] } }
