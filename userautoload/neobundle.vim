@@ -69,17 +69,17 @@ NeoBundle 'Quich-Filter'
 NeoBundle 'https://github.com/tpope/vim-fugitive',
         \ {'name' : 'vim-fugitive'}
 NeoBundle 'SQLUtilities'
-NeoBundle 'http://github.com/tpope/vim-surround.git',
+NeoBundle 'https://github.com/tpope/vim-surround.git',
         \ {'name' : 'vim-surround'}
 NeoBundle 'mattn/zencoding-vim'
-NeoBundle 'http://github.com/thinca/vim-quickrun.git',
+NeoBundle 'https://github.com/thinca/vim-quickrun.git',
         \ {'name' : 'vim-quickrun'}
-NeoBundle 'http://github.com/vim-scripts/grep.vim.git',
+NeoBundle 'https://github.com/vim-scripts/grep.vim.git',
         \ {'name' : 'grep'}
 NeoBundle 'https://github.com/vim-scripts/Vim-R-plugin'
 NeoBundle 'https://github.com/ervandew/screen',
         \ {'name' : 'screen'}
-NeoBundle 'http://github.com/kana/vim-altr.git',
+NeoBundle 'https://github.com/kana/vim-altr.git',
         \ {'name' : 'vim-altr'}
 NeoBundle 'petdance/vim-perl'
 NeoBundle 'hotchpotch/perldoc-vim'
