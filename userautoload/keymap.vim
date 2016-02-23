@@ -17,3 +17,8 @@ endfor
 " SEE ALSO: http://vim.wikia.com/wiki/VimTip600
 nmap ,cs :let @*=expand("%")<CR>
 nmap ,cl :let @*=expand("%:p")<CR>
+
+" vimdiff
+if &diff
+  nnoremap <C-,> ]c
+endif
