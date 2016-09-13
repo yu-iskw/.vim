@@ -10,7 +10,7 @@ let g:xml_syntax_folding = 1
 set foldlevel=100 "Don't autofold anything
 
 " 文字コードを自動判別
-set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
+set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
 
 " ファイルが更新されたら自動的にリロード
 set autoread 
