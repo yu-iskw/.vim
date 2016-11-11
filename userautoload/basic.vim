@@ -103,6 +103,8 @@ augroup HighlightTrailingSpaces
   autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces term=underline guibg=Red ctermbg=Red
   autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
+" 行末のスペースを保存時に削除
+autocmd BufWritePre * :%s/\s\+$//ge
 
 " spell check
 set spelllang+=cjk
