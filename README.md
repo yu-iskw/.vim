@@ -1,12 +1,16 @@
-# README
+# `.vim`
 
-vim の設定ファイル
+This is my Vim configuration.
 
-vim plugin の管理は、NeoBundle を利用している。
+`NeoBundle` allows me to manage plugins very easily.
+The configurations are nested for making it easy to understand.
 
-各プラグインの設定ファイルは `.vim/userautoload` 以下に個別に配置してある。
+- `.vim/userautoload/basic.vim`: basics of vim configurations
+- `.vim/userautoload/color.vim`: vim color configurations
+- `.vim/userautoload/keymap.vim`: vim key map configurations
+- `.vim/userautoload/neobundle.vim`: manage plugins
 
-## INSTALL
+## Install
 
 ```
 # clone .vimrc etc
@@ -23,10 +27,9 @@ ln -s ~/.vim/.vimrc
 ```
 
 ```
-# execute vim command to install vim plugins by NeoBundle
+" execute vim command to install vim plugins by NeoBundle
 :NeoBundleInstall
 ```
 
 ## Note
-
-- バージョンが古い vim だと動作しない可能性がある
+This configurations might not work on old Vim.
