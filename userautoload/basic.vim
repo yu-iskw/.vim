@@ -11,10 +11,11 @@ set foldlevel=100 "Don't autofold anything
 
 " 文字コードを自動判別
 set encoding=utf-8
-set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
+"set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
+set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
 
 " ファイルが更新されたら自動的にリロード
-set autoread 
+set autoread
 " 更新頻度を上げる
 augroup vimrc-checktime
   autocmd!
@@ -93,6 +94,9 @@ set nomodeline
 set mouse=a
 "編集中のファイル名を表示する
 set title
+
+" indent and tab on Python
+autocmd FileType python setlocal expandtab shiftwidth=2 softtabstop=2
 
 "カーソルを行頭、行末で止まらないようにする
 set whichwrap=b,s,h,l,<,>,[,]
