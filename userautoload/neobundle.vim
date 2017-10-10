@@ -105,6 +105,8 @@ NeoBundle "nvie/vim-flake8"
 NeoBundle "davidhalter/jedi-vim"
 NeoBundle 'https://github.com/kannokanno/previm.git'
 NeoBundle 'https://github.com/antoyo/vim-licenses.git'
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
