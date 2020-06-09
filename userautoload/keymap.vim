@@ -17,3 +17,6 @@ endfor
 " SEE ALSO: http://vim.wikia.com/wiki/VimTip600
 nmap ,cs :let @*=expand("%")<CR>
 nmap ,cl :let @*=expand("%:p")<CR>
+
+" Open github page with browser
+nnoremap <silent><C-G><C-H> :Gbrowse<CR>

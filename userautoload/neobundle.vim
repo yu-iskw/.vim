@@ -37,6 +37,7 @@ NeoBundleLazy 'Shougo/neosnippet', {
       \ 'autoload' : {
       \   'insert' : 1,
       \ }}
+NeoBundleLazy 'Shougo/neosnippet-snippets'
 NeoBundle 'https://github.com/kaichen/vim-snipmate-ruby-snippets.git',
         \ {'name' : 'vim-snippets-ruby-snippets'}
 NeoBundle 'https://github.com/garbas/vim-snipmate.git',
@@ -92,21 +93,26 @@ NeoBundle 'vim-scripts/MultipleSearch'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'vim-scripts/taglist.vim'
 NeoBundle 'vim-scripts/AutoComplPop'
-NeoBundle 'https://github.com/plasticboy/vim-markdown.git'
-NeoBundle 'https://github.com/derekwyatt/vim-scala.git'
-NeoBundle 'https://github.com/tommorris/scala-vim-snippets.git'
-NeoBundle 'https://github.com/megaannum/vimside.git'
-NeoBundle 'https://github.com/tpope/vim-rails.git'
-NeoBundle 'https://github.com/tyru/open-browser.vim.git'
-NeoBundle 'https://github.com/vim-scripts/vim-addon-mw-utils.git'
-NeoBundle 'https://github.com/mattn/emmet-vim.git'
-NeoBundle 'https://github.com/hynek/vim-python-pep8-indent.git'
+NeoBundle 'godlygeek/tabular'
+NeoBundle "plasticboy/vim-markdown"
+NeoBundle 'derekwyatt/vim-scala'
+NeoBundle 'tommorris/scala-vim-snippets'
+NeoBundle 'megaannum/vimside'
+NeoBundle 'tpope/vim-rails'
+NeoBundle 'tyru/open-browser.vim'
+NeoBundle 'vim-scripts/vim-addon-mw-utils'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'hynek/vim-python-pep8-indent'
 NeoBundle "nvie/vim-flake8"
 NeoBundle "davidhalter/jedi-vim"
-NeoBundle 'https://github.com/kannokanno/previm.git'
-NeoBundle 'https://github.com/antoyo/vim-licenses.git'
+NeoBundle 'kannokanno/previm'
+NeoBundle 'antoyo/vim-licenses'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'mattn/vim-maketable'
+NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'hashivim/vim-terraform'
+NeoBundle 'tpope/vim-rhubarb.git'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
